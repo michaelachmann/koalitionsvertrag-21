@@ -11,5 +11,11 @@ Die bereitgestellten Text-Dokumente wurden anschließend noch händisch minimal 
 ## 1. Einstieg: Wortfrequenzen
 Im ersten Schritt wurden mit Hilfe von `NLTK` und `pandas` die Wortfrequenzen gezählt und in mehreren `csv`-Dateien abgelegt. Der zugehörige Code findet sich im Notebook `1_word_frequencies`.
 
+## 2. Vertiefung Stoppwörter & Satzzeichen
+In diesem Notebook werden die Effekter einzelner Schritte der NLP-Pipeline an den Wahlprogrammen demonstriert.
+
+## 3. Wordcloud(s)
+Hier werden mit wenigen Zeilen Code Wortwolken für die Wahlprogramme erstellt.
+
 ## Warum Jupyter & R?
 Eigentlich wäre es sinnvoll sich auf eine Technik zu konzentrieren, gerade dank `ggplot2` lassen sich mit R allerdings einfacher Plots erstellen, deshalb schon die Vorbereitung beide Programmiersprachen zu nutzen.
