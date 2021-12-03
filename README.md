@@ -8,8 +8,8 @@ Im ersten Schritt wurden die Parteiprogramme / der Koalitionsvertrag als PDF-Dok
 
 Die bereitgestellten Text-Dokumente wurden anschließend noch händisch minimal gesäubert: So wurden die Inhaltsverzeichnisseiten, Titelseiten und etwaige Stichwortregister durch löschen entfernt, deshalb der hinweis `_b` für *bearbeitet* im Dateinamen.
 
-## Einstieg
-Im ersten Schritt wurden mit Hilfe von `NLTK` und `pandas` die Wortfrequenzen gezählt und in mehreren `csv`-Dateien abgelegt.
+## 1. Einstieg: Wortfrequenzen
+Im ersten Schritt wurden mit Hilfe von `NLTK` und `pandas` die Wortfrequenzen gezählt und in mehreren `csv`-Dateien abgelegt. Der zugehörige Code findet sich im Notebook `1_word_frequencies`.
 
 ## Warum Jupyter & R?
 Eigentlich wäre es sinnvoll sich auf eine Technik zu konzentrieren, gerade dank `ggplot2` lassen sich mit R allerdings einfacher Plots erstellen, deshalb schon die Vorbereitung beide Programmiersprachen zu nutzen.
