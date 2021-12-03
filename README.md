@@ -4,7 +4,7 @@ Jupyter Notebook & R-Projekt zur Auswertung der Wahlprogramme und des Koalitions
 
 ## Korpusvorbereitung
 Im ersten Schritt wurden die Parteiprogramme / der Koalitionsvertrag als PDF-Dokument heruntergeladen. Anschließend mit Hilfe von Acrobat Reader als `.txt`-Datei exportiert.
-![Acrobat Reader PDF to Text Export](images/pdf-to-text1)
+![Acrobat Reader PDF to Text Export](images/pdf-to-text1.png)
 
 Die bereitgestellten Text-Dokumente wurden anschließend noch händisch minimal gesäubert: So wurden die Inhaltsverzeichnisseiten, Titelseiten und etwaige Stichwortregister durch löschen entfernt, deshalb der hinweis `_b` für *bearbeitet* im Dateinamen.
 
