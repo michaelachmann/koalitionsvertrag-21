@@ -17,5 +17,9 @@ In diesem Notebook werden die Effekter einzelner Schritte der NLP-Pipeline an de
 ## 3. Wordcloud(s)
 Hier werden mit wenigen Zeilen Code Wortwolken für die Wahlprogramme erstellt.
 
+## 4. Topic Modelling mit LDA
+Demonstration des Topic-Modellings mit dem *LDA*-Algorithmus. Dafür werden die Dokumente zunächst eingelesen, tokenisiert und mit Stoppwortlisten abgeglichen. Im Anschluss nutzen wir `HanTa` zur Lemmatisierung. Nachdem der Text vorbereitet ist müssen wir aus unserer geringen Anzahl an Dokumenten künstlich eine größere Zahl erzeugen, daür splitten wir die Dokumente in *n*-Wörter lange Dokumente auf und erhalten in der Größenordnung 1000 Dokumente. Dann kann das `gensim`-Paket genutzt werden um ein Modell zu Trainieren, das schließlich mit `pyLDAvis` interaktiv visualisiert wird.
+
+
 ## Warum Jupyter & R?
 Eigentlich wäre es sinnvoll sich auf eine Technik zu konzentrieren, gerade dank `ggplot2` lassen sich mit R allerdings einfacher Plots erstellen, deshalb schon die Vorbereitung beide Programmiersprachen zu nutzen.
